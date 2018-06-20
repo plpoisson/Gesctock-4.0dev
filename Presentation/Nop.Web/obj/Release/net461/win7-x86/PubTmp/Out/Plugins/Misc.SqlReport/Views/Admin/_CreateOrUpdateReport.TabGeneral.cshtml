@@ -1,0 +1,48 @@
+﻿@model Nop4you.Plugin.Misc.SqlReport.Models.ReportModel
+@Html.ValidationSummary(true)
+@Html.HiddenFor(model => model.Id)
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+@using Nop.Services;
+
+<div>
+    <div class="form-group localized-name">
+        <div class="col-md-3">
+            <nop-label asp-for="Name" />
+        </div>
+        <div class="col-md-9">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-3">
+            <nop-label asp-for="Description" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-12">
+            @Html.EditorFor(model => model.Description, "RichEditor")
+            @Html.ValidationMessageFor(model => model.Description)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-3">
+            <nop-label asp-for="GroupId" />
+        </div>
+        <div class="col-md-9">
+            <nop-select asp-for="GroupId" asp-items="Model.AvailableGroups" />
+            @Html.ValidationMessageFor(model => model.GroupId)
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-md-3">
+            <nop-label asp-for="DisplayOrder" />
+        </div>
+        <div class="col-md-9">
+            @Html.EditorFor(model => model.DisplayOrder)
+            @Html.ValidationMessageFor(model => model.DisplayOrder)
+        </div>
+    </div>
+</div>

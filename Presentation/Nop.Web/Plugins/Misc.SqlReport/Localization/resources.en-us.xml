@@ -1,0 +1,317 @@
+﻿<Language Name="English">
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.add">
+    <Value>Add new Filter</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.backtolist">
+    <Value>(Back to list)</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.groupname">
+    <Value>Group Name</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.listvalues">
+    <Value>Values list</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.name">
+    <Value>Filter Name</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Filter.name.hint">
+    <Value>Enter filter name</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.name.required">
+    <Value>Filter name is required</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Filter.ParameterType">
+    <Value>Parameter Type</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Filter.parametertype.hint">
+    <Value>Choose Parameter Type from the list</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Filter.SystemName">
+    <Value>System name</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Filter.systemname.hint">
+    <Value>Enter system name</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.systemname.required">
+    <Value>System name is required</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.group.displayorder">
+    <Value>Display Order</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.group.name">
+    <Value>Group Name</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.add">
+    <Value>Add report</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.availablefilters">
+    <Value>SQL Reports Available Filters</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.availablefilters.hint">
+    <Value>Enter the SQL Reports available filters.</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.backtolist">
+    <Value>(Back to list)</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.dayofweek">
+    <Value>Day of week</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.dayofweekfriday">
+    <Value>Friday</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.dayofweekmonday">
+    <Value>Monday</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.dayofweeksaturday">
+    <Value>Saturday</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.dayofweeksunday">
+    <Value>Sunday</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.dayofweekthursday">
+    <Value>Thursday</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.dayofweektuesday">
+    <Value>Tuesday</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.dayofweekwednesday">
+    <Value>Wednesday</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.Description">
+    <Value>Report Description</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.description.hint">
+    <Value>Enter the report description</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.DisplayOrder">
+    <Value>Display Order</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.displayorder.hint">
+    <Value>Select Report Display Order</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.EmailAccountId">
+    <Value>Email Account ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.emailaccountid.hint">
+    <Value>Choose email account id</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.EmailBody">
+    <Value>Email body</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.emailbody.hint">
+    <Value>Enter the email body</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.EmailCC">
+    <Value>Email CC</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.emailcc.hint">
+    <Value>Enter the email cc address</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.EmailPriority">
+    <Value>Email Priority</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.emailpriority.hint">
+    <Value>Choose email priority</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.EmailReplyTo">
+    <Value>Email reply to</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.emailreplyto.hint">
+    <Value>Enter the email reply to address</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.EmailSubject">
+    <Value>Email Subject</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.emailsubject.hint">
+    <Value>Enter the email subject</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.EmailTo">
+    <Value>Email to</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.emailto.hint">
+    <Value>Enter email to address</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.Enabled">
+    <Value>Schedule Enabled</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.enabled.hint">
+    <Value>SQL Report Enabled</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.general">
+    <Value>Report General</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.GroupId">
+    <Value>Group</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.currentreport.edit">
+    <Value>Report edit</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.groupid.hint">
+    <Value>Choose the group ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.monthonthefirstdayofweek">
+    <Value>Month on the first day of week</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.monthonthefirstdayofweek.hint">
+    <Value>Month on the first day of week</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.name">
+    <Value>Report Name</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.name.hint">
+    <Value>Enter the report name</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.name.required">
+    <Value>SQL Report name is required</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.OccursDay">
+    <Value>Day</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.occursday.hint">
+    <Value>Choose report occurs day</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.OccursId">
+    <Value>Occurs Frequency</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.occursid.hint">
+    <Value>Choose sql reports occurs frequency</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.occursonceathour">
+    <Value>Hours</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.occursonceatminute">
+    <Value>Minutes</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.schedule">
+    <Value>Report Schedule</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.sql">
+    <Value>SQL Report</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Report.sql.hint">
+    <Value>Enter the SQL Code</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.sql.required">
+    <Value>SQL report is required</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager">
+    <Value>SQL Report Manager</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.filter.addnew">
+    <Value>Add new</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.filter.manager">
+    <Value>Filter Manager</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.group.manager">
+    <Value>Group Manager</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.plugin.misc.sqlreport.sqlmanager.Manager">
+    <Value>Manager</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.report.addnew">
+    <Value>Add new</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.report.manager">
+    <Value>Report Manager</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.reports">
+    <Value>Reports</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.settings.manager">
+    <Value>Info Manager</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.info">
+    <Value>Info Manager</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.group.name.required">
+    <Value>Group name is required</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.group.customerroleid">
+    <Value>Customer Role</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.edit">
+    <Value>SQL Report Edit</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.edit">
+    <Value>SQL Report Filter Edit</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.filter.edit">
+    <Value>Filter Edit</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.added">
+    <Value>SQL Report Filter Added</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.defaultvalue">
+    <Value>Default Value</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.name">
+    <Value>Filter Name</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.recursevery">
+    <Value>Recurs every</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.sqlmanager.report.edit">
+    <Value>SQL Report Edit</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.added">
+    <Value>SQL Report Added</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.group.customerroleid">
+    <Value>Customer Role ID</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.group.name.required">
+    <Value>Group Name is required.</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.group.reportexists">
+    <Value>Exists report assigned to this group.</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.edit">
+    <Value>Edit report</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.report.updated">
+    <Value>Report Updated</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.filter.updated">
+    <Value>Filter Updated</Value>
+  </LocaleResource>
+  <LocaleResource Name="admin.common.run">
+    <Value>Generate report</Value>
+  </LocaleResource>
+  <LocaleResource Name="admin.common.exportexcel">
+    <Value>Export to Excel</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.text1">
+    <Value><![CDATA[<b>Group Manager</b> – Manage groups for SQL Reports.]]></Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.text2">
+    <Value><![CDATA[<b>Filter Manager</b> - You can manage here your filters. You can at this point add, delete and edit existing filters. It’s important thing to create functional reports. Filters are responsible for adding criteria according to which is to create the report. You can select here which filter it should be, available types: Date, Text and Selected List. Filter name will be displayed in the report section. <b>So it should be called as you want to see it in report. </b>]]></Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.text3">
+    <Value><![CDATA[<b>Report Manager</b> – In this place you will have all created reports. You can add, delete and edit existing reports. After enter to this section you will see three tabs. <ul><li>Report General is responsible for general settings, report name, report description and to which group it should be applied.</li> <li>SQL Reports. You will see here two fields. One of them is viewing all of available filters which you created in Filter Manager. You also have here place to write your own SQL code to make an report (Remember: your code must work in SQL Management Studio, if not, code is invalid, please don't use filters in Management studio, it won't work). </li><li> Report Schedule. Here you can specify when this report should generate and automatically send it to specified recipients (Here also filters won't work, you need to enter values manually).</li></ul>]]></Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.text4">
+    <Value><![CDATA[Please remember that if you want to manage reports you need to be an administrator or have permissions in ACL to Management plugins. To viewing and generating reports you need to have additional permissions SQL Reports in ACL (Plugin Sql Report Manager).]]></Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.text5">
+    <Value>Warning: Any change in the scheduler in the report will be visible when you restart the application.</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.text6">
+    <Value>Move your mouse over a selected group, at hover you will see the list of the available reports. Choose the one you want.</Value>
+  </LocaleResource>
+  <LocaleResource Name="admin.language.installstringresources">
+    <Value>Install string resources</Value>
+  </LocaleResource>
+  <LocaleResource Name="nop4you.plugin.misc.sqlreport.run.count0">
+    <Value>Empty result</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.SqlManager.CurrentReport.Runhelp">
+    <Value>To show report, please click button: Generate report</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Filter.SqlQuery">
+    <Value>Sql query</Value>
+  </LocaleResource>
+  <LocaleResource Name="Nop4you.Plugin.Misc.SqlReport.Filter.SqlQuery.hint">
+    <Value>Sql query must return two columns</Value>
+  </LocaleResource>
+</Language>

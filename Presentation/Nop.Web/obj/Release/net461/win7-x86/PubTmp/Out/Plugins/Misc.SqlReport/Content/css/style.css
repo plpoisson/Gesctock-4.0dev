@@ -1,0 +1,40 @@
+﻿.nop4u-menu {
+    float: left;
+    width: 18%;
+}
+
+.nop4u-menu li {
+    border-top: 1px solid #fff !important;
+    border-bottom: 1px solid #ccc !important;
+    height: 25px;
+    padding: 0.3em 0.1em .4em !important;
+}
+
+.nop4u-menu img {
+    vertical-align: middle;
+    padding-bottom: 2px;
+}
+
+.nop4u-menu-header {
+    border-bottom: solid 3px #dfdfdf;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.nop4u-menu-header .title {
+    float: left;
+    color: #009FFF;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: bottom;
+    padding-top: 5px;            
+
+}
+
+.nop4u-settings {
+    float: left;
+    margin-left: 30px;
+    width: 75%;
+    overflow: hidden;
+}

@@ -1,0 +1,149 @@
+﻿@model Iclic.Plugin.Widgets.BlocPub.Models.PublicInfoModel
+
+@{
+    Layout = "";
+    Html.AddCssFileParts("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Content/style.css");
+}
+
+<div class="BlocPub-wrapper theme-custom">
+
+    @{
+        var dataSlide1 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture1Url},
+{ "nom", Model.Nom1},
+{ "Url", Model.Url1},
+{ "tagId", Model.Tag1Id},
+{ "tagUrl", Model.Tag1Url},
+{ "datedebut", Model.DateDebut1},
+{ "datefin", Model.DateFin1}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide1)
+    }
+    @{
+        var dataSlide2 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture2Url},
+{ "nom", Model.Nom2},
+{ "Url", Model.Url2},
+{ "tagId", Model.Tag2Id},
+{ "tagUrl", Model.Tag2Url},
+{ "datedebut", Model.DateDebut2},
+{ "datefin", Model.DateFin2}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide2)
+    }
+
+    @{
+        var dataSlide3 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture3Url},
+{ "nom", Model.Nom3},
+{ "Url", Model.Url3},
+{ "tagId", Model.Tag3Id},
+{ "tagUrl", Model.Tag3Url},
+{ "datedebut", Model.DateDebut3},
+{ "datefin", Model.DateFin3}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide3)
+    }
+
+    @{
+        var dataSlide4 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture4Url},
+{ "nom", Model.Nom4},
+{ "Url", Model.Url4},
+{ "tagId", Model.Tag4Id},
+{ "tagUrl", Model.Tag4Url},
+{ "datedebut", Model.DateDebut4},
+{ "datefin", Model.DateFin4}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide4)
+    }
+
+    @{
+        var dataSlide5 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture5Url},
+{ "nom", Model.Nom5},
+{ "Url", Model.Url5},
+{ "tagId", Model.Tag5Id},
+{ "tagUrl", Model.Tag5Url},
+{ "datedebut", Model.DateDebut5},
+{ "datefin", Model.DateFin5}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide5)
+    }
+
+    @{
+        var dataSlide6 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture6Url},
+{ "nom", Model.Nom6},
+{ "Url", Model.Url6},
+{ "tagId", Model.Tag6Id},
+{ "tagUrl", Model.Tag6Url},
+{ "datedebut", Model.DateDebut6},
+{ "datefin", Model.DateFin6}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide6)
+    }
+
+    @{
+        var dataSlide7 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture7Url},
+{ "nom", Model.Nom7},
+{ "Url", Model.Url7},
+{ "tagId", Model.Tag7Id},
+{ "tagUrl", Model.Tag7Url},
+{ "datedebut", Model.DateDebut7},
+{ "datefin", Model.DateFin7}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide7)
+    }
+
+    @{
+        var dataSlide8 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture8Url},
+{ "nom", Model.Nom8},
+{ "Url", Model.Url8},
+{ "tagId", Model.Tag8Id},
+{ "tagUrl", Model.Tag8Url},
+{ "datedebut", Model.DateDebut8},
+{ "datefin", Model.DateFin8}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide8)
+    }
+
+    @{
+        var dataSlide9 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture9Url},
+{ "nom", Model.Nom9},
+{ "Url", Model.Url9},
+{ "tagId", Model.Tag9Id},
+{ "tagUrl", Model.Tag9Url},
+{ "datedebut", Model.DateDebut9},
+{ "datefin", Model.DateFin9}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide9)
+    }
+
+    @{
+        var dataSlide10 = new ViewDataDictionary(ViewData)
+{
+{"pictureUrl", Model.Picture10Url},
+{ "nom", Model.Nom10},
+{ "Url", Model.Url10},
+{ "tagId", Model.Tag10Id},
+{ "tagUrl", Model.Tag10Url},
+{ "datedebut", Model.DateDebut10},
+{ "datefin", Model.DateFin10}
+};
+@await Html.PartialAsync("~/Plugins/Iclic.Plugin.Widgets.BlocPub/Views/_PublicInfo.Display.cshtml", dataSlide10)
+    }
+
+</div>

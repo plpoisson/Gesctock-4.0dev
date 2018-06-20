@@ -1,0 +1,209 @@
+﻿@model Iclic.Widgets.EnVedette.Models.ConfigurationModel
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+
+@await Component.InvokeAsync("StoreScopeConfiguration")
+<form asp-controller="WidgetsEnVedette" asp-action="Configure" method="post">
+    <div class="panel panel-default">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                ProduitVedettes
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitVedettes_OverrideForStore" asp-input="ProduitVedettes" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitVedettes" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitVedettes" />
+                        <span asp-validation-for="ProduitVedettes"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitVedettesNb_OverrideForStore" asp-input="ProduitVedettesNb" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitVedettesNb" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitVedettesNb" />
+                        <span asp-validation-for="ProduitVedettesNb"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                ProduitNouveautes
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitNouveautes_OverrideForStore" asp-input="ProduitNouveautes" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitNouveautes" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitNouveautes" />
+                        <span asp-validation-for="ProduitNouveautes"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitNouveautesNb_OverrideForStore" asp-input="ProduitNouveautesNb" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitNouveautesNb" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitNouveautesNb" />
+                        <span asp-validation-for="ProduitNouveautesNb"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                ProduitVentes
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitVentes_OverrideForStore" asp-input="ProduitVentes" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitVentes" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitVentes" />
+                        <span asp-validation-for="ProduitVentes"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitVentesNb_OverrideForStore" asp-input="ProduitVentesNb" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitVentesNb" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitVentesNb" />
+                        <span asp-validation-for="ProduitVentesNb"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                ProduitsDecouverte
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitsDecouverte_OverrideForStore" asp-input="ProduitsDecouverte" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitsDecouverte" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitsDecouverte" />
+                        <span asp-validation-for="ProduitsDecouverte"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitsDecouverteNb_OverrideForStore" asp-input="ProduitsDecouverteNb" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitsDecouverteNb" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitsDecouverteNb" />
+                        <span asp-validation-for="ProduitsDecouverteNb"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                ProduitsCategorie
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitsCategorie_OverrideForStore" asp-input="ProduitsCategorie" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitsCategorie" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitsCategorie" />
+                        <span asp-validation-for="ProduitsCategorie"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitsCategorieNb_OverrideForStore" asp-input="ProduitsCategorieNb" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitsCategorieNb" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitsCategorieNb" />
+                        <span asp-validation-for="ProduitsCategorieNb"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="CategoryId_OverrideForStore" asp-input="CategoryId" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="CategoryId" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="CategoryId" />
+                        <span asp-validation-for="CategoryId"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                ProduitsSolde
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitsSolde_OverrideForStore" asp-input="ProduitsSolde" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitsSolde" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitsSolde" />
+                        <span asp-validation-for="ProduitsSolde"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitsSoldeNb_OverrideForStore" asp-input="ProduitsSoldeNb" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitsSoldeNb" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitsSoldeNb" />
+                        <span asp-validation-for="ProduitsSoldeNb"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3">
+                        <nop-override-store-checkbox asp-for="ProduitsSoldePourcentage_OverrideForStore" asp-input="ProduitsSoldePourcentage" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                        <nop-label asp-for="ProduitsSoldePourcentage" />
+                    </div>
+                    <div class="col-md-9">
+                        <nop-editor asp-for="ProduitsSoldePourcentage" />
+                        <span asp-validation-for="ProduitsSoldePourcentage"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="col-md-9 col-md-offset-3">
+                        <input type="submit" name="save" class="btn bg-blue" value="@T("Admin.Common.Save")" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

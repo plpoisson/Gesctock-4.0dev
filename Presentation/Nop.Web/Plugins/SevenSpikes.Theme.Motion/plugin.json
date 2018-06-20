@@ -1,0 +1,11 @@
+﻿{
+  "Group": "7Spikes",
+  "FriendlyName": "Nop Motion Theme",
+  "SystemName": "SevenSpikes.Theme.Motion",
+  "Version": "4.0",
+  "SupportedVersions": [ "4.00" ],
+  "Author": "Seven Spikes Ltd",
+  "DisplayOrder": 2,
+  "FileName": "SevenSpikes.Theme.Motion.dll",
+  "Description": "This plugin allows you to configure the Motion theme settings"
+}

@@ -1,0 +1,24 @@
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\SMS.Verizon\plugin.json
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.csproj.CopyComplete
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\SMS.Verizon\plugin.json
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\SMS.Verizon\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\SMS.Verizon\logo.jpg
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\SMS.Verizon\Nop.Plugin.SMS.Verizon.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.csproj.CopyComplete
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.SMS.Verizon\obj\Release\net461\Nop.Plugin.SMS.Verizon.pdb

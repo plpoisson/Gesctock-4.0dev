@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "Envedette",
+  "SystemName": "Widgets.EnVedette",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.00" ],
+  "Author": "David",
+  "DisplayOrder": 1,
+  "FileName": "Iclic.Widgets.EnVedette.dll",
+  "Description": "Plugin EnVedette"
+}

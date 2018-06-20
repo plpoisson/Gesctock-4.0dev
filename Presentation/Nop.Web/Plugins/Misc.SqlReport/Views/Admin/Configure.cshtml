@@ -1,0 +1,60 @@
+﻿@{
+    Layout = ViewBag.ConfigurePage ? "~/Plugins/Misc.SqlReport/Views/_ConfigurePluginWorkaround.cshtml" : "";
+    Html.SetActiveMenuItemSystemName("sqlreport");
+
+}
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+@using Nop.Core.Domain.Catalog;
+<div class="content-header clearfix">
+    <div class="pull-right">
+        <input type="button" name="install-string-resources" class="k-button" value="@T("Admin.Language.InstallStringResources")" onclick="location.href='@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.InstallStringResources")'" />
+    </div>
+</div>
+
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+
+            <div class="panel panel-default">
+                @if (Nop4you.Plugin.Misc.SqlReport.n4yPlugin.TrialVersion)
+                {
+                    <div class="panel-heading">
+                        SQL Report Trial version. To buy full version go to our <a href="https://www.nop4you.com/nopcommerce-sql-report-plugin" target="_blank">store</a>
+                    </div>
+                }
+                <div class="panel-body">
+                    @Html.Partial("~/Plugins/Misc.SqlReport/Views/Admin/LeftSideMenu.cshtml")
+                    <div class="nop4u-settings">
+                        <div class="nop4u-menu-header">
+                            <div class="title">
+
+                                @T("nop4you.plugin.misc.sqlreport.sqlmanager.info")
+                            </div>
+
+                        </div>
+                        <em>
+                            @T("nop4you.plugin.misc.sqlreport.text1")
+                        </em>
+                        <br />
+                        <br />
+                        <em>
+                            @T("nop4you.plugin.misc.sqlreport.text2")
+                        </em>
+                        <br />
+                        <br />
+                        <em>
+                            @T("nop4you.plugin.misc.sqlreport.text3")
+                        </em>
+                        <br />
+                        <br />
+                        <em>
+                            @T("nop4you.plugin.misc.sqlreport.text4")
+                        </em>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

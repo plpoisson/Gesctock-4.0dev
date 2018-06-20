@@ -1,0 +1,39 @@
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\plugin.json
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentInfo.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.csproj.CopyComplete
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\plugin.json
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentInfo.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.csproj.CopyComplete
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.pdb
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\plugin.json
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\Configure.cshtml
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\PaymentInfo.cshtml
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\logo.jpg
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PurchaseOrder\Nop.Plugin.Payments.PurchaseOrder.pdb
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.AssemblyInfo.cs
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.csproj.CopyComplete
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.dll
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PurchaseOrder\obj\Release\net461\Nop.Plugin.Payments.PurchaseOrder.pdb

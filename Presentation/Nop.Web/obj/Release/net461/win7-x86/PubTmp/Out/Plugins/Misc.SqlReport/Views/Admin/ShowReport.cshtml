@@ -1,0 +1,25 @@
+﻿@model Nop4you.Plugin.Misc.SqlReport.Models.GroupReportModel
+
+@{
+    Layout = ViewBag.ConfigurePage ? "" : "~/Plugins/Misc.SqlReport/Views/_ConfigurePluginWorkaround.cshtml";
+    Html.SetActiveMenuItemSystemName("sqlreport");
+}
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+@using Nop.Core.Domain.Catalog;
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    @Html.Partial("~/Plugins/Misc.SqlReport/Views/Admin/LeftSideMenuReport.cshtml", Model)
+
+                    <div class="nop4u-settings">
+                        @Html.Partial("~/Plugins/Misc.SqlReport/Views/Admin/SelectedReport.cshtml", Model.SelectedReport)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

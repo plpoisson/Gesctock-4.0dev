@@ -1,0 +1,173 @@
+﻿@model Nop4you.Plugin.Misc.SqlReport.Models.GroupManager
+@{
+    Layout = ViewBag.ConfigurePage ? "" : "~/Plugins/Misc.SqlReport/Views/_ConfigurePluginWorkaround.cshtml";
+    Html.SetActiveMenuItemSystemName("sqlreport");
+}
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+@using Nop.Core.Domain.Catalog;
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+
+
+                    @Html.Partial("~/Plugins/Misc.SqlReport/Views/Admin/LeftSideMenu.cshtml")
+
+                    <div class="nop4u-settings">
+
+                        <div class="nop4u-menu-header">
+                            <div class="title">
+                                
+                                @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.Group.Manager")
+                            </div>
+                        </div>
+                        @Html.AntiForgeryToken()
+                        <div id="group-grid"></div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $("#group-grid").kendoGrid({
+                                    dataSource: {
+                                        type: "json",
+                                        transport: {
+                                            read: {
+                                                url: "@Html.Raw(Url.Action("GroupManager", "SqlReportManager"))",
+                                                type: "POST",
+                                                dataType: "json",
+                                                contentType: "application/json"
+                                            },
+                                            create: {
+                                                url: "@Html.Raw(Url.Action("GroupInsert", "SqlReportManager"))",
+                                                type: "POST",
+                                                dataType: "json"
+                                            },
+                                            update: {
+                                                url: "@Html.Raw(Url.Action("GroupUpdate", "SqlReportManager"))",
+                                                type: "POST",
+                                                dataType: "json"
+                                            },
+                                            destroy: {
+                                                url: "@Html.Raw(Url.Action("GroupDelete", "SqlReportManager"))",
+                                                type: "POST",
+                                                dataType: "json"
+                                            },
+                                            parameterMap: function (data, operation) {
+                                                if (operation != "read") {
+                                                    return data;
+                                                } else {
+                                                    //for some reasons only such "Filter" data be parsed
+                                                    return JSON.stringify(data);
+                                                }
+                                            }
+                                        },
+                                        schema: {
+                                            data: "Data",
+                                            total: "Total",
+                                            errors: "Errors",
+                                            model: {
+                                                id: "Id",
+                                                fields: {
+                                                    CustomerRole: { editable: true, type: "string" },
+                                                    Name: { editable: true, type: "string" },
+                                                    Id: { editable: false, type: "number" },
+                                                    DisplayOrder: { editable: true, type: "number" },
+                                                    CustomerRoleId: { editable: true, type: "number" },
+                                                }
+                                            }
+                                        },
+                                        requestEnd: function (e) {
+                                            if (e.type == "create" || e.type == "update") {
+                                                this.read();
+                                            }
+                                        },
+                                        error: function (e) {
+                                            display_kendoui_grid_error(e);
+                                            // Cancel the changes
+                                            this.cancelChanges();
+                                        },
+
+                                        serverPaging: false,
+                                        serverFiltering: false,
+                                        serverSorting: false
+                                    },
+                                    pageable: {
+                                        refresh: true,
+                                        numeric: false,
+                                        previousNext: false,
+                                        info: false
+                                    },
+                                    sortable: false,
+                                    toolbar: ["create"],
+                                    editable: {
+                                        confirmation: false,
+                                        mode: "inline"
+                                    },
+
+                                    scrollable: false,
+                                    columns: [{
+                                        field: "Name",
+                                        title: "@T("Nop4you.Plugin.Misc.SqlReport.Group.Name")",
+                                        width: 300,
+                                    }, {
+                                        field: "DisplayOrder",
+                                        title: "@T("Nop4you.Plugin.Misc.SqlReport.Group.DisplayOrder")",
+                                        width: 30,
+
+                                    }, {
+                                        field: "CustomerRoleId",
+                                        title: "@T("Nop4you.Plugin.Misc.SqlReport.Group.CustomerRoleId")",
+                                        width: 100,
+                                        editor: customerRoleDropDownEditor,
+                                        template: "#:CustomerRole#"
+                                    },{
+                                        command: [{
+                                            name: "edit",
+                                            text: "@T("Admin.Common.Edit")"
+                                        }, {
+                                            name: "destroy",
+                                            text: "@T("Admin.Common.Delete")"
+                                        }],
+                                        width: 200,
+                                        filterable: false
+                                    }]
+                                });
+                            });
+
+
+                            //local datasource
+                            var allRoles = [
+                                @for (int i = 0; i < Model.AvailableCustomerRoles.Count; i++)
+                            {
+                                var roleItem = Model.AvailableCustomerRoles[i];
+                                <text>
+                                    {
+                                        Id: @(roleItem.Value),
+                                        Name: "@(Html.Raw(JavaScriptEncoder.Default.Encode(roleItem.Text)))"
+                                    }
+                                    </text>
+                                if (i != Model.AvailableCustomerRoles.Count - 1)
+                                {
+                                    <text>,</text>
+                                }
+                            }
+                            ];
+
+                            function customerRoleDropDownEditor(container, options) {
+                                $('<input required data-text-field="Name" data-value-field="Id" data-bind="value:CustomerRoleId"/>')
+                                    .appendTo(container)
+                                    .kendoDropDownList({
+                                        autoBind: false,
+                                        dataSource: allRoles
+                                    });
+                            }
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,125 @@
+﻿@{
+    Layout = ViewBag.ConfigurePage ? "" : "~/Plugins/Misc.SqlReport/Views/_ConfigurePluginWorkaround.cshtml";
+    Html.SetActiveMenuItemSystemName("sqlreport");
+
+}
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+@using Nop.Core.Domain.Catalog;
+<div class="content-header clearfix">
+    <div class="pull-right">
+        <a href="@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.SqlManager.Filter.Add")" class="bg-blue k-button"><i class="fa fa-plus"></i> @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.Filter.AddNew")</a>
+    </div>
+</div>
+
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    @Html.Partial("~/Plugins/Misc.SqlReport/Views/Admin/LeftSideMenu.cshtml")
+
+                    <div class="nop4u-settings">
+
+                        <div class="nop4u-menu-header">
+                            <div class="title">
+
+                                @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.Filter.Manager")
+
+                            </div>
+
+                        </div>
+                        @Html.AntiForgeryToken()
+                        <div id="filter-grid"></div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $("#filter-grid").kendoGrid({
+                                    dataSource: {
+                                        type: "json",
+                                        transport: {
+                                            read: {
+                                                url: "@Html.Raw(Url.Action("FilterManager", "SqlReportManager"))",
+                                                type: "POST",
+                                                dataType: "json",
+                                                contentType: "application/json"
+                                            },
+                                            destroy: {
+                                                url: "@Html.Raw(Url.Action("FilterDelete", "SqlReportManager"))",
+                                                type: "POST",
+                                                dataType: "json"
+                                            },
+                                            parameterMap: function (data, operation) {
+                                                if (operation != "read") {
+                                                    return data;
+                                                } else {
+                                                    //for some reasons only such "Filter" data be parsed
+                                                    return JSON.stringify(data);
+                                                }
+                                            }
+                                        },
+                                        schema: {
+                                            data: "Data",
+                                            total: "Total",
+                                            errors: "Errors",
+                                            model: {
+                                                id: "Id",
+                                                fields: {
+                                                    Name: { editable: true, type: "string" },
+                                                    Id: { editable: false, type: "number" },
+                                                }
+                                            }
+                                        },
+                                        requestEnd: function (e) {
+                                            if (e.type == "create" || e.type == "update") {
+                                                this.read();
+                                            }
+                                        },
+                                        error: function (e) {
+                                            display_kendoui_grid_error(e);
+                                            // Cancel the changes
+                                            this.cancelChanges();
+                                        },
+
+                                        serverPaging: false,
+                                        serverFiltering: false,
+                                        serverSorting: false
+                                    },
+                                    editable: "inline",
+                                    pageable: {
+                                        refresh: true,
+                                        numeric: false,
+                                        previousNext: false,
+                                        info: false
+                                    },
+                                    scrollable: false,
+                                    columns: [{
+                                        field: "Name",
+                                        title: "@T("Nop4you.Plugin.Misc.SqlReport.Filter.Name")",
+                                        width: 300,
+                                    },
+                                    {
+                                        field: "Id",
+                                        title: "@T("Admin.Common.Edit")",
+                                        width: 100,
+                                        template: '<a href="@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.SqlManager.Filter.Edit")/#=Id#">@T("Admin.Common.Edit")</a>'
+                                    },
+                                    {
+                                        command: [{
+                                            name: "destroy",
+                                            text: "@T("Admin.Common.Delete")"
+                                        }],
+                                        width: 200,
+                                        filterable: false
+                                    }]
+                                });
+                            });
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

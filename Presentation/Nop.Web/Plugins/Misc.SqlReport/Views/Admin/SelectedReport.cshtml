@@ -1,0 +1,148 @@
+﻿@model Nop4you.Plugin.Misc.SqlReport.Models.GroupReportModel.CurrentReport
+@{
+    //page title
+    ViewBag.Title = T("Nop4you.Plugin.Misc.SqlReport.SqlManager.CurrentReport.Edit").Text;
+}
+
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+@using Nop.Web.Framework.Controllers;
+@using Nop.Web.Framework.Mvc;
+@using Nop.Core.Infrastructure
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(model => model.Id)
+
+    <div class="nop4u-menu-header">
+        <div class="title">
+            
+            <text>@Model.Name</text>
+        </div>
+    </div>
+    <div class="nop4u-menu-description">
+        @Html.Raw(Model.Description)
+    </div>
+    <div class="nop4u-menu-filter">
+        <div>
+            @foreach (var item in Model.Filters)
+            {
+                <div class="form-group">
+                    <div class="col-md-12">
+                        @item.Name
+                    </div>
+                    <div class="col-md-12">
+                        @if (item.FilterType == Nop4you.Plugin.Misc.SqlReport.Models.ParameterTypeFilterEnum.Text)
+                        {
+
+                            <input name="@(item.Id)" type="text" class="textbox" id="@(item.Id)" value="" />
+                        }
+                        @if (item.FilterType == Nop4you.Plugin.Misc.SqlReport.Models.ParameterTypeFilterEnum.Date)
+                        {
+                            <input id="datepicker@(item.Id)" name="@(item.Id)" />
+                            <script>$("#datepicker@(item.Id)").kendoDatePicker();</script>
+                        }
+                        @if (item.FilterType == Nop4you.Plugin.Misc.SqlReport.Models.ParameterTypeFilterEnum.SelectedList)
+                        {
+
+                            <select name="@(item.Id)" id="@(item.Id)">
+                                @foreach (var value in item.Items)
+                                {
+                                    <option value="@value.Value">@value.Text</option>
+                                }
+                            </select>
+                            <script>
+                                $(document).ready(function () {
+                                    $("#@(item.Id)").kendoDropDownList();
+                                });
+                            </script>
+                        }
+                        @if (item.FilterType == Nop4you.Plugin.Misc.SqlReport.Models.ParameterTypeFilterEnum.SqlSelectList)
+                        {
+
+                            <select name="@(item.Id)" id="@(item.Id)">
+                                @foreach (var value in item.Items)
+                                {
+                                    <option value="@value.Value">@value.Text</option>
+                                }
+                            </select>
+                            <script>
+                                $(document).ready(function () {
+                                    $("#@(item.Id)").kendoDropDownList();
+                                });
+                            </script>
+                        }
+                    </div>
+                </div>
+
+            }
+            <div class="form-group">
+                <div class="col-md-12">
+                    <em>
+                        @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.CurrentReport.Runhelp")
+                    </em>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-12">
+                    <input type="button" id="btnGenerate" class="k-button" value="@T("Admin.Common.Run")" />
+                    <input type="submit" name="exportexcel" class="k-button" value="@T("Admin.Common.ExportExcel")" />
+                </div>
+            </div>
+        </div>
+
+        <div id="grid-@(Model.Id)"></div>
+
+        <script>
+        $(document).ready(function () {
+
+			dataSource = new kendo.data.DataSource({
+				transport: {
+					read:  {
+						url: "@Html.Raw(Url.Action("ReportRun", "SqlReportManager"))",
+						dataType: "json",
+						data: additionalData,
+						type: "POST",
+					}
+				},
+				schema:
+                {
+					data:"Data",
+					errors: "Errors",
+				},
+				error: function(e) {
+					display_kendoui_grid_error(e);
+                    // Cancel the changes
+                    this.cancelChanges();
+                },
+				});
+
+            $("#grid-@(Model.Id)").kendoGrid({
+				autoBind: false,
+				dataSource: dataSource,
+				groupable: true,
+				sortable: true,
+            });
+        });
+        </script>
+
+
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#btnGenerate').click(function () {
+				dataSource.read();
+            });
+        });
+
+        function additionalData() {
+            return {
+                Form: $('form').serializeArray(),
+				id: $('#@Html.IdFor(model => model.Id)').val(),
+            };
+        }
+    </script>
+}
+

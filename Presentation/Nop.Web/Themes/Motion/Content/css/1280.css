@@ -1,0 +1,59 @@
+﻿/*=====================================================
+    
+    DESKTOP - LARGE
+
+=====================================================*/
+
+@media all and (min-width: 1281px) {
+    .header-centering,
+    .master-wrapper-page,
+    .home-page-category-grid .item-grid,
+    .footer-centering {
+        width: 980px;
+    }
+    .home-page-category-grid .item-box, .sub-category-grid .item-box {
+        width: calc(33.33% - 10px);
+    }
+    .footer-top .footer-block:nth-child(1) {
+        width: 30%;
+    }
+    .footer-top .footer-block:nth-child(2) {
+        width: 36%;
+    }
+    .footer-top .footer-block {
+        width: 30%;
+    }
+
+    .registration-page .inputs > label,
+    .login-page .inputs > label,
+    .password-recovery-page .inputs > label,
+    .center-1 .write-review label,
+    .contact-page .inputs > label,
+    .email-a-friend-page .inputs > label,
+    .apply-vendor-page .inputs > label {
+        width: 405px;
+    }
+
+    .inputs label {
+        width: 29%;
+    }
+
+    .cart-collaterals {
+        width: 610px;
+    }
+    .shopping-cart-page .totals {
+        width: 335px;
+    }
+    .checkout-page .edit-address label {
+        width: 400px;
+    }
+
+    .apply-vendor-page .terms-of-service {
+        text-align: center;
+    }
+    .productTabs .inputs label,
+    .productTabs .write-review .review-rating label {
+        width: 34%;
+    }
+
+}

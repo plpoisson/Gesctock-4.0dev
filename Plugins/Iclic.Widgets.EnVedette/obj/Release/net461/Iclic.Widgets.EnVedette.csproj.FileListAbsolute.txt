@@ -1,0 +1,26 @@
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\plugin.json
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Views\PublicInfo.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Iclic.Widgets.EnVedette.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Iclic.Widgets.EnVedette.pdb
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.csprojAssemblyReference.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.csproj.CopyComplete
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\plugin.json
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Views\PublicInfo.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Iclic.Widgets.EnVedette.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Widgets.EnVedette\Iclic.Widgets.EnVedette.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.csprojAssemblyReference.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.csproj.CopyComplete
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Widgets.EnVedette\obj\Release\net461\Iclic.Widgets.EnVedette.pdb

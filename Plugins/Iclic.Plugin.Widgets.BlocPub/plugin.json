@@ -1,0 +1,11 @@
+﻿{
+  "Group": "Widgets",
+  "FriendlyName": "BlocPub",
+  "SystemName": "Widgets.BlocPub",
+  "Version": "1.0",
+  "SupportedVersions": [ "4.00" ],
+  "Author": "David",
+  "DisplayOrder": 1,
+  "FileName": "Iclic.Plugin.Widgets.BlocPub.dll",
+  "Description": "Plugin BlocPub"
+}

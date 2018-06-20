@@ -1,0 +1,26 @@
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.Monetico\logo.jpg
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.Monetico\plugin.json
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.Monetico\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.Monetico\Views\PaymentInfo.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.Monetico\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.Monetico\Nop.Plugin.Payments.Monetico.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.Monetico\Nop.Plugin.Payments.Monetico.pdb
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.csproj.CopyComplete
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.Monetico\logo.jpg
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.Monetico\plugin.json
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.Monetico\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.Monetico\Views\PaymentInfo.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.Monetico\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.Monetico\Nop.Plugin.Payments.Monetico.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.Monetico\Nop.Plugin.Payments.Monetico.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.csproj.CopyComplete
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.Monetico\obj\Release\net461\Nop.Plugin.Payments.Monetico.pdb

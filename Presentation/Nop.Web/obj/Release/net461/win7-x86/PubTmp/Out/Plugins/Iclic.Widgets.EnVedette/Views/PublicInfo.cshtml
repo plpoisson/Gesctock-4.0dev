@@ -1,0 +1,122 @@
+﻿@model Iclic.Widgets.EnVedette.Models.PublicInfoModel
+
+@{
+    Layout = "";
+}
+
+@if (Model.EnVedette.Count > 0)
+{
+    <div class="product-grid home-page-product-grid">
+        <div class="title">
+            <strong>@T("HomePage.EnVedette")</strong>
+        </div>
+        <div class="item-grid">
+            @foreach (var item in Model.EnVedette)
+            {
+                <div class="item-box">
+                    @Html.Partial("_ProductBox", item)
+                </div>
+            }
+        </div>
+    </div>
+}
+
+
+@if (Model.Nouveaute.Count > 0)
+{
+    <div class="product-grid home-page-product-grid">
+        <div class="title">
+            <strong>
+                @T("HomePage.Nouveaute")<a href="/newproducts">@T("HomePage.Nouveaute.All")</a>
+
+            </strong>
+        </div>
+        <div class="item-grid">
+            @foreach (var item in Model.Nouveaute)
+            {
+                <div class="item-box">
+                    @Html.Partial("_ProductBox", item)
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@if (Model.MeilleurVentes.Count > 0)
+{
+    <div class="product-grid home-page-product-grid">
+        <div class="title">
+            <strong>
+                @T("HomePage.MeilleurVentes")
+                <a href="/meilleursVendeurs">@T("HomePage.MeilleurVentes.All")</a>
+
+            </strong>
+        </div>
+        <div class="item-grid">
+            @foreach (var item in Model.MeilleurVentes)
+            {
+                <div class="item-box">
+                    @Html.Partial("_ProductBox", item)
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@if (Model.Decouverte.Count > 0)
+{
+    <div class="product-grid home-page-product-grid">
+        <div class="title">
+            <strong>
+                @T("HomePage.Decouverte")
+            </strong>
+        </div>
+        <div class="item-grid">
+            @foreach (var item in Model.Decouverte)
+            {
+                <div class="item-box">
+                    @Html.Partial("_ProductBox", item)
+                </div>
+            }
+        </div>
+    </div>
+}
+
+
+@if (Model.Categorie.Count > 0)
+{
+    <div class="product-grid home-page-product-grid">
+        <div class="title">
+            <strong>
+                @T("HomePage.Categorie")
+            </strong>
+        </div>
+        <div class="item-grid">
+            @foreach (var item in Model.Categorie)
+            {
+                <div class="item-box">
+                    @Html.Partial("_ProductBox", item)
+                </div>
+            }
+        </div>
+    </div>
+}
+
+@if (Model.Solde.Count > 0)
+{
+    <div class="product-grid home-page-product-grid">
+        <div class="title">
+            <strong>@T("HomePage.Solde")</strong>
+        </div>
+        <div class="item-grid">
+            @foreach (var item in Model.Solde)
+            {
+                <div class="item-box">
+                    @Html.Partial("_ProductBox", item)
+                </div>
+            }
+        </div>
+    </div>
+}
+
+

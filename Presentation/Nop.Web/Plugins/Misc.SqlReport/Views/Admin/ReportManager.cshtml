@@ -1,0 +1,134 @@
+﻿@{
+    Layout = ViewBag.ConfigurePage ? "" : "~/Plugins/Misc.SqlReport/Views/_ConfigurePluginWorkaround.cshtml";
+    Html.SetActiveMenuItemSystemName("sqlreport");
+
+}
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+@using Nop.Core.Domain.Catalog;
+<div class="content-header clearfix">
+    <div class="pull-right">
+        <a href="@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.SqlManager.Report.Add")" class="bg-blue k-button"><i class="fa fa-plus"></i> @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.Report.AddNew")</a>
+    </div>
+</div>
+
+<div class="content">
+    <div class="form-horizontal">
+        <div class="panel-group">
+
+            <div class="panel panel-default">
+                @if (Nop4you.Plugin.Misc.SqlReport.n4yPlugin.TrialVersion)
+                {
+                    <div class="panel-heading">
+                        SQL Report Trial version. To buy full version go to our <a href="https://www.nop4you.com/nopcommerce-sql-report-plugin" target="_blank">store</a>
+                    </div>
+                }
+
+                <div class="panel-body">
+                    @Html.Partial("~/Plugins/Misc.SqlReport/Views/Admin/LeftSideMenu.cshtml")
+
+                    <div class="nop4u-settings">
+
+                        <div class="nop4u-menu-header">
+                            <div class="title">
+                                @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.Report.Manager")
+                            </div>
+                        </div>
+                        @Html.AntiForgeryToken()
+                        <div id="report-grid"></div>
+
+                        <script>
+                            $(document).ready(function () {
+                                $("#report-grid").kendoGrid({
+                                    dataSource: {
+                                        type: "json",
+                                        transport: {
+                                            read: {
+                                                url: "@Html.Raw(Url.Action("ReportManager", "SqlReportManager"))",
+                                                type: "POST",
+                                                dataType: "json",
+                                                contentType: "application/json"
+                                            },
+                                            destroy: {
+                                                url: "@Html.Raw(Url.Action("ReportDelete", "SqlReportManager"))",
+                                                type: "POST",
+                                                dataType: "json"
+                                            },
+                                            parameterMap: function (data, operation) {
+                                                if (operation != "read") {
+                                                    return data;
+                                                } else {
+                                                    //for some reasons only such "Filter" data be parsed
+                                                    return JSON.stringify(data);
+                                                }
+                                            }
+                                        },
+                                        schema: {
+                                            data: "Data",
+                                            total: "Total",
+                                            errors: "Errors",
+                                            model: {
+                                                id: "Id",
+                                                fields: {
+                                                    Name: { editable: false, type: "string" },
+                                                    GroupName: { editable: false, type: "string" },
+                                                    Id: { editable: false, type: "number" },
+                                                }
+                                            }
+                                        },
+                                        requestEnd: function (e) {
+                                            if (e.type == "create" || e.type == "update") {
+                                                this.read();
+                                            }
+                                        },
+                                        error: function (e) {
+                                            display_kendoui_grid_error(e);
+                                            // Cancel the changes
+                                            this.cancelChanges();
+                                        },
+
+                                        serverPaging: false,
+                                        serverFiltering: false,
+                                        serverSorting: false
+                                    },
+                                    editable: "inline",
+                                    pageable: {
+                                        refresh: true,
+                                        numeric: false,
+                                        previousNext: false,
+                                        info: false
+                                    },
+                                    scrollable: false,
+                                    columns: [{
+                                        field: "Name",
+                                        title: "@T("Nop4you.Plugin.Misc.SqlReport.Filter.Name")",
+                                        width: 300,
+                                    },
+                                    {
+                                        field: "GroupName",
+                                        title: "@T("Nop4you.Plugin.Misc.SqlReport.Filter.GroupName")",
+                                        width: 300,
+                                    }, {
+                                        field: "Id",
+                                        title: "@T("Admin.Common.Edit")",
+                                        width: 100,
+                                        template: '<a href="@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.SqlManager.Report.Edit")/#=Id#">@T("Admin.Common.Edit")</a>'
+                                    },
+                                    {
+                                        command: [{
+                                            name: "destroy",
+                                            text: "@T("Admin.Common.Delete")"
+                                        }],
+                                        width: 200,
+                                        filterable: false
+                                    }]
+                                });
+                            });
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

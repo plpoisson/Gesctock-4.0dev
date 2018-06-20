@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Montserrat');
+
+
+html *
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body .header-menu > ul > li > a {
+    font-size: 13px;
+
+}
+
+
+
+.shopping-cart-page .button-1, .checkout-page .button-1 {
+
+    background: #616b6d;
+       
+    border: 1px solid #616b6d;
+       box-shadow: 0 1px 0 0 #616b6d;
+}
+
+li{
+    max-width: 980px;
+    margin: auto;
+}
+
+
+.topic-page .page-body {
+    line-height: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+
+.item-box .actual-price {
+    max-width: 77px;
+}
+
+div.full-description h3 {
+    background: #616B6D;
+    padding: 0px 15px 18px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.product-selectors {
+    
+    display: none;
+}
+
+.filtersPanel {
+    display: none;
+}
+
+
+.overview .product-price, .variant-overview .product-price 
+{   
+text-shadow: none;
+}
+
+
+
+.overview .prices-2 .product-price span {
+    font-size: 20px;
+    font-weight: nomal;
+}
+
+
+
+.header .header-bottom .search-box {
+    display:none;
+}
+
+
+
+.header .header-bottom .header-centering {
+    min-height: 90px;
+}
+
+body .header-menu > ul > li > a, .header-menu > ul > li > span {
+    padding: 10px 11px;
+    font-weight: normal;
+}
+
+
+
+
+#Bloc-Pub .blocPub-slide img { 
+    height: 305px;
+
+}
+
+#Bloc-Pub .blocPub-slide {
+    height: 320px;
+    width: 320px;
+}
+
+div.page.home-page div.topic-block div.topic-block-title{
+   
+    display:none;
+}
+
+.gallery .picture-thumbs a {
+    display: block;
+    height: 70px;
+    margin: 0 8px 12px !important;
+    width: 80px;
+ border: 1px solid #d9d9d9;
+}
+
+.header .header-bottom, .header .header-bottom .search-box {
+    background-color: #fff;
+}
+
+.header-logo a img {
+    max-height: 140px;
+	max-width: 422px;
+}
+
+.header-logo {
+    float: none;
+    margin: auto;
+}
+
+.header-logo a {
+
+position: relative;
+top: 13px;
+margin-bottom: 24px;
+}
+
+
+.header .header-bottom .search-box {
+    display:none;
+}
+
+.header {
+    text-align: center;
+}
+
+.header .header-bottom .header-centering {
+    min-height: 90px;
+}
+
+
+body .header-menu > ul > li > a.lastLevelCategory {
+    font-weight: normal;
+}
+
+
+body .header-menu > ul > li > a, .header-menu > ul > li > span {
+    font-weight: normal!important;
+    text-transform: uppercase;
+
+}
+
+
+
+
+.eu-cookie-bar-notification button,  .fieldset .title strong:before,  #topcartlink a,  #topcartlink a:before,  .footer-block h3:before,  .footer-block .topic-block-title h2:before,  .newsletter-email input[type="button"],  .block .title,  .block .list a:before,  .block .view-all a,  .item-box .prices,  .item-box .prices:before,  .free-shipping,  .overview .prices,  .variant-overview .prices,  .overview .prices:before,  .variant-overview .prices:before,  .ui-tabs .ui-tabs-nav li.ui-tabs-selected a,  .ui-tabs .ui-state-active.ui-tabs-active a,  .write-review .title strong:before,  .product-review-list .title strong:before,  .write-review .button-1,  .compare-products-page .clear-list,  .contact-page .button-1,  .email-a-friend-page .button-1,  .registration-page .button-1,  .registration-result-page .button-1,  .login-page .button-1,  .password-recovery-page .button-1,  .account-page .button-1,  .return-request-page .button-1,  .return-request-page .title strong:before,  .shopping-cart-page .button-1,  .checkout-page .button-1,  .continue-shopping-wrap input[type="submit"],  .continue-shopping-wrap:before,  .order-details-page .section .title strong:before,  .search-input .button-1,  .sitemap-page .entity-title h2:before,  .post-title:before,  .news-title:before,  .blog-page .tags label:before,  .blogpost-page .tags label:before,  .blog-details:before,  .new-comment .button-1,  .comment-list .title:before,  .responsive-nav-wrapper,  .header-menu .close-menu,  .header-menu ul li.back-button,  .store-search-box,  .search-box .search-box-button,  .mini-shopping-cart input.checkout-button,  .header-menu,  .header-menu .sublist>li>a:before,  .productAddedToCartWindowCheckout,  .ui-slider-range,  .nopAjaxFilters7Spikes .close-filters,  .filter-block a.clearFilterOptions,  .filter-block a.clearPriceRangeFilter,  .jDropDown>div:after,  .products .item-info .prices,  .products .item-info .prices:after,  .quick-view-button a,  .products-carousel .item-info .prices,  .products-carousel .item-info .prices:after,  #goToTop,  .products-carousel .item-info .prices:before,  .news-items .read-more,  .vertical-holder .carousel-title span,  .ui-datepicker-header,  .ropc .section-title strong:before,  .ropc .complete-button button,  .ropc .complete-button button[disabled]:hover,  .user-agreement-page .button-1,  .rich-blog-homepage .read-more,  .post-relations label:before,  .read-comments:before,  .post-actions .read-more,  .blog-search-box .search-box-button,  .sale-of-the-day-offer .owl-dot.active,.quick-view-button a {
+    background-color:  #616b6d;
+}
+
+.continue-shopping-wrap input[type="submit"]:hover, .continue-shopping-wrap:hover:before, .search-box .search-box-button:hover, .newsletter-email input[type="button"]:hover, .block .view-all a:hover, .write-review .button-1:hover, .compare-products-page .clear-list:hover, .contact-page .button-1:hover, .email-a-friend-page .button-1:hover, .registration-page .button-1:hover, .registration-result-page .button-1:hover, .login-page .button-1:hover, .password-recovery-page .button-1:hover, .account-page .button-1:hover, .return-request-page .button-1:hover, .shopping-cart-page .button-1:hover, .checkout-page .button-1:hover, .search-input .button-1:hover, .new-comment .button-1:hover, .quick-view-button a:hover, .productAddedToCartWindowCheckout:hover, .news-items .read-more:hover {
+    background-color: #616b6d;
+}
+
+
+
+

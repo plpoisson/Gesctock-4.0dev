@@ -1,0 +1,46 @@
+﻿@model Nop4you.Plugin.Misc.SqlReport.Models.GroupReportModel
+@{
+    Layout = "";
+    Html.AddCssFileParts("~/Plugins/Misc.SqlReport/Content/css/style.css");
+}
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+@using Nop.Core.Domain.Catalog;
+<div class="nop4u-menu">
+    <div class="nop4u-menu-header">
+        <div class="title">
+
+            nop4you - Sql Report
+        </div>
+    </div>
+    <ul id="menu">
+        @foreach (var item in Model.GroupReports)
+        {
+            <li>
+                <text>@(item.Name)</text>
+                <ul>
+                    @foreach (var report in item.Reports)
+                    {
+                        <li>
+                            <a class="k-link" href="@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.ShowReport", new { Id = report.Id })">
+                                @(report.Name)
+                            </a>
+
+
+                        </li>
+                    }
+                </ul>
+            </li>
+        }
+    </ul>
+
+    <script>
+        $(document).ready(function () {
+            $("#menu").kendoMenu({
+                orientation: "vertical",
+            });
+
+            $('.section-header').hide();
+        });
+    </script>
+</div>

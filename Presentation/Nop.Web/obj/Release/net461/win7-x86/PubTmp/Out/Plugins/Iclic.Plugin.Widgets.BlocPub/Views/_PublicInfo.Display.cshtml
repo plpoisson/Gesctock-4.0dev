@@ -1,0 +1,29 @@
+﻿@model Iclic.Plugin.Widgets.BlocPub.Models.PublicInfoModel
+
+@{
+    var pictureUrl = ViewData["pictureUrl"]?.ToString() ?? "";
+    var url = ViewData["Url"]?.ToString() ?? "";
+    var nom = ViewData["nom"]?.ToString() ?? "";
+
+    if (!string.IsNullOrEmpty(pictureUrl))
+    {
+        if (!string.IsNullOrEmpty(url))
+        {
+            <div id="Bloc-Pub" class="blocPub-slide">
+                <a href="@url">
+                    <img src="@pictureUrl" data-thumb="@pictureUrl" alt="@nom" title="@nom" />
+                </a>
+            </div>
+        }
+        else
+        {
+            <div id="Bloc-Pub" class="BlocPub">
+               
+                    <img src="@pictureUrl" data-thumb="@pictureUrl" alt="@nom" title="@nom" />
+               
+            </div>
+                }
+
+                }
+
+                }

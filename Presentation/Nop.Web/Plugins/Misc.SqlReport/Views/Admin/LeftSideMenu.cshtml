@@ -1,0 +1,55 @@
+﻿@{
+    Layout = "";
+    Html.AddCssFileParts("~/Plugins/Misc.SqlReport/Content/css/style.css");
+
+}
+@using Nop.Web.Framework;
+@using Nop.Web.Framework.UI;
+@using Nop.Core.Domain.Catalog;
+<div class="nop4u-menu">
+    <div class="nop4u-menu-header">
+        <div class="title">
+            nop4you - Sql Report
+        </div>
+    </div>
+    <ul id="menu">
+        <li>
+            <a class="k-link" href="@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.Configure")">
+                <strong>
+                    @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.Settings.Manager")
+                </strong>
+            </a>
+        </li>
+        <li>
+            <a class="k-link" href="@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.GroupManager")">
+                <strong>
+                    @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.Group.Manager")
+                </strong>
+            </a>
+        </li>
+        <li>
+            <a class="k-link" href="@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.FilterManager")">
+                <strong>
+                    @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.Filter.Manager")
+                </strong>
+            </a>
+        </li>
+        <li>
+            <a class="k-link" href="@Url.RouteUrl("Nop4you.Plugin.Misc.SqlReport.ReportManager")">
+                <strong>
+                    @T("Nop4you.Plugin.Misc.SqlReport.SqlManager.Report.Manager")
+                </strong>
+            </a>
+        </li>
+    </ul>
+
+    <script>
+        $(document).ready(function () {
+            $("#menu").kendoMenu({
+                orientation: "vertical",
+            });
+
+            $('.section-header').hide();
+        });
+    </script>
+</div>

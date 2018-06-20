@@ -1,0 +1,24 @@
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\plugin.json
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.csproj.CopyComplete
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\plugin.json
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\logo.jpg
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\DiscountRules.HadSpentAmount\Nop.Plugin.DiscountRules.HadSpentAmount.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.csproj.CopyComplete
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.DiscountRules.HadSpentAmount\obj\Release\net461\Nop.Plugin.DiscountRules.HadSpentAmount.pdb

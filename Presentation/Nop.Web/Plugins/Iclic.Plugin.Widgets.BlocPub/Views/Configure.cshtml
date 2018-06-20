@@ -1,0 +1,698 @@
+﻿@model Iclic.Plugin.Widgets.BlocPub.Models.ConfigurationModel
+
+@{
+    Layout = "_ConfigurePlugin";
+}
+
+@await Component.InvokeAsync("StoreScopeConfiguration")
+<form asp-controller="WidgetsBlocPub" asp-action="Configure" method="post">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture1")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture1Id_OverrideForStore" asp-input="Picture1Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture1Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture1Id" />
+                    <span asp-validation-for="Picture1Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom1_OverrideForStore" asp-input="Nom1" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom1" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom1" />
+                    <span asp-validation-for="Nom1"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag1_OverrideForStore" asp-input="Tag1" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag1" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag1" />
+                    <span asp-validation-for="Tag1"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url1_OverrideForStore" asp-input="Url1" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url1" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url1" />
+                    <span asp-validation-for="Url1"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut1_OverrideForStore" asp-input="DateDebut1" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut1" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut1" />
+                    <span asp-validation-for="DateDebut1"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin1_OverrideForStore" asp-input="DateFin1" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin1" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin1" />
+                    <span asp-validation-for="DateFin1"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture2")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture2Id_OverrideForStore" asp-input="Picture2Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture2Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture2Id" />
+                    <span asp-validation-for="Picture2Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom2_OverrideForStore" asp-input="Nom2" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom2" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom2" />
+                    <span asp-validation-for="Nom2"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag2_OverrideForStore" asp-input="Tag2" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag2" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag2" />
+                    <span asp-validation-for="Tag2"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url2_OverrideForStore" asp-input="Url2" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url2" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url2" />
+                    <span asp-validation-for="Url2"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut2_OverrideForStore" asp-input="DateDebut2" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut2" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut2" />
+                    <span asp-validation-for="DateDebut2"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin2_OverrideForStore" asp-input="DateFin2" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin2" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin2" />
+                    <span asp-validation-for="DateFin2"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture3")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture3Id_OverrideForStore" asp-input="Picture3Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture3Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture3Id" />
+                    <span asp-validation-for="Picture3Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom3_OverrideForStore" asp-input="Nom3" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom3" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom3" />
+                    <span asp-validation-for="Nom3"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag3_OverrideForStore" asp-input="Tag3" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag3" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag3" />
+                    <span asp-validation-for="Tag3"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url3_OverrideForStore" asp-input="Url3" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url3" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url3" />
+                    <span asp-validation-for="Url3"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut3_OverrideForStore" asp-input="DateDebut3" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut3" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut3" />
+                    <span asp-validation-for="DateDebut3"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin3_OverrideForStore" asp-input="DateFin3" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin3" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin3" />
+                    <span asp-validation-for="DateFin3"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture4")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture4Id_OverrideForStore" asp-input="Picture4Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture4Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture4Id" />
+                    <span asp-validation-for="Picture4Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom4_OverrideForStore" asp-input="Nom4" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom4" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom4" />
+                    <span asp-validation-for="Nom4"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag4_OverrideForStore" asp-input="Tag4" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag4" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag4" />
+                    <span asp-validation-for="Tag4"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url4_OverrideForStore" asp-input="Url4" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url4" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url4" />
+                    <span asp-validation-for="Url4"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut4_OverrideForStore" asp-input="DateDebut4" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut4" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut4" />
+                    <span asp-validation-for="DateDebut4"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin4_OverrideForStore" asp-input="DateFin4" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin4" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin4" />
+                    <span asp-validation-for="DateFin4"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture5")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture5Id_OverrideForStore" asp-input="Picture5Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture5Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture5Id" />
+                    <span asp-validation-for="Picture5Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom5_OverrideForStore" asp-input="Nom5" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom5" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom5" />
+                    <span asp-validation-for="Nom5"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag5_OverrideForStore" asp-input="Tag5" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag5" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag5" />
+                    <span asp-validation-for="Tag5"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url5_OverrideForStore" asp-input="Url5" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url5" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url5" />
+                    <span asp-validation-for="Url5"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut5_OverrideForStore" asp-input="DateDebut5" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut5" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut5" />
+                    <span asp-validation-for="DateDebut5"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin5_OverrideForStore" asp-input="DateFin5" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin5" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin5" />
+                    <span asp-validation-for="DateFin5"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture6")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture6Id_OverrideForStore" asp-input="Picture6Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture6Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture6Id" />
+                    <span asp-validation-for="Picture6Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom6_OverrideForStore" asp-input="Nom6" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom6" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom6" />
+                    <span asp-validation-for="Nom6"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag6_OverrideForStore" asp-input="Tag6" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag6" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag6" />
+                    <span asp-validation-for="Tag6"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url6_OverrideForStore" asp-input="Url6" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url6" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url6" />
+                    <span asp-validation-for="Url6"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut6_OverrideForStore" asp-input="DateDebut6" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut6" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut6" />
+                    <span asp-validation-for="DateDebut6"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin6_OverrideForStore" asp-input="DateFin6" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin6" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin6" />
+                    <span asp-validation-for="DateFin6"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture7")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture7Id_OverrideForStore" asp-input="Picture7Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture7Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture7Id" />
+                    <span asp-validation-for="Picture7Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom7_OverrideForStore" asp-input="Nom7" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom7" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom7" />
+                    <span asp-validation-for="Nom7"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag7_OverrideForStore" asp-input="Tag7" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag7" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag7" />
+                    <span asp-validation-for="Tag7"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url7_OverrideForStore" asp-input="Url7" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url7" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url7" />
+                    <span asp-validation-for="Url7"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut7_OverrideForStore" asp-input="DateDebut7" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut7" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut7" />
+                    <span asp-validation-for="DateDebut7"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin7_OverrideForStore" asp-input="DateFin7" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin7" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin7" />
+                    <span asp-validation-for="DateFin7"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture8")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture8Id_OverrideForStore" asp-input="Picture8Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture8Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture8Id" />
+                    <span asp-validation-for="Picture8Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom8_OverrideForStore" asp-input="Nom8" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom8" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom8" />
+                    <span asp-validation-for="Nom8"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag8_OverrideForStore" asp-input="Tag8" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag8" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag8" />
+                    <span asp-validation-for="Tag8"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url8_OverrideForStore" asp-input="Url8" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url8" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url8" />
+                    <span asp-validation-for="Url8"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut8_OverrideForStore" asp-input="DateDebut8" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut8" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut8" />
+                    <span asp-validation-for="DateDebut8"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin8_OverrideForStore" asp-input="DateFin8" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin8" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin8" />
+                    <span asp-validation-for="DateFin8"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture9")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture9Id_OverrideForStore" asp-input="Picture9Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture9Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture9Id" />
+                    <span asp-validation-for="Picture9Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom9_OverrideForStore" asp-input="Nom9" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom9" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom9" />
+                    <span asp-validation-for="Nom9"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag9_OverrideForStore" asp-input="Tag9" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag9" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag9" />
+                    <span asp-validation-for="Tag9"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url9_OverrideForStore" asp-input="Url9" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url9" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url9" />
+                    <span asp-validation-for="Url9"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut9_OverrideForStore" asp-input="DateDebut9" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut9" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut9" />
+                    <span asp-validation-for="DateDebut9"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin9_OverrideForStore" asp-input="DateFin9" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin9" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin9" />
+                    <span asp-validation-for="DateFin9"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            @T("Plugins.Widgets.NivoSlider.Picture10")
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Picture10Id_OverrideForStore" asp-input="Picture10Id" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Picture10Id" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Picture10Id" />
+                    <span asp-validation-for="Picture10Id"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Nom10_OverrideForStore" asp-input="Nom10" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Nom10" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Nom10" />
+                    <span asp-validation-for="Nom10"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Tag10_OverrideForStore" asp-input="Tag10" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Tag10" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Tag10" />
+                    <span asp-validation-for="Tag10"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="Url10_OverrideForStore" asp-input="Url10" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="Url10" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="Url10" />
+                    <span asp-validation-for="Url10"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateDebut10_OverrideForStore" asp-input="DateDebut10" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateDebut10" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateDebut10" />
+                    <span asp-validation-for="DateDebut10"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-3">
+                    <nop-override-store-checkbox asp-for="DateFin10_OverrideForStore" asp-input="DateFin10" asp-store-scope="@Model.ActiveStoreScopeConfiguration" />
+                    <nop-label asp-for="DateFin10" />
+                </div>
+                <div class="col-md-9">
+                    <nop-editor asp-for="DateFin10" />
+                    <span asp-validation-for="DateFin10"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="form-group">
+                <div class="col-md-9 col-md-offset-3">
+                    <input type="submit" name="save" class="btn bg-blue" value="@T("Admin.Common.Save")" />
+                </div>
+            </div>
+        </div>
+    </div>
+</form>    

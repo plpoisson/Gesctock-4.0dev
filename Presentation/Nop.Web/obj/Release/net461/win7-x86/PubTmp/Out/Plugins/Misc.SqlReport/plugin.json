@@ -1,0 +1,11 @@
+﻿{
+  "Group": "nop4you",
+  "FriendlyName": "SqlReport",
+  "SystemName": "Misc.SqlReport",
+  "Version": "2.0",
+  "SupportedVersions": [ "4.00" ],
+  "Author": "GrandNode team",
+  "DisplayOrder": 1,
+  "FileName": "Nop4you.Plugin.Misc.SqlReport.dll",
+  "Description": "You can create your own reports! Specify which fields should be analyzed, what kind of data you want to analyze."
+}

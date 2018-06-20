@@ -1,0 +1,16 @@
+﻿<div class="header">
+    @await Component.InvokeAsync("Widget", new { widgetZone = "header" })
+    <div class="header-top">
+        @await Component.InvokeAsync("HeaderLinks")
+    </div>
+    <div class="header-bottom">
+        <div class="header-centering">
+            <div class="header-logo">
+                @await Component.InvokeAsync("Logo")
+            </div>
+            <ul class="footer-menu">
+                <li class="phone-head">@T("SevenSpikes.Themes.Motion.Common.Phone")</li>
+            </ul>
+        </div>
+    </div>
+</div>

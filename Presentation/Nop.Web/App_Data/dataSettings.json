@@ -1,0 +1,5 @@
+{
+  "DataProvider": "sqlserver",
+  "DataConnectionString": "Data Source=172.20.70.20;Initial Catalog=gestock;Integrated Security=False;Persist Security Info=False;User ID=sa;Password=Telus-IclIc777",
+  "RawDataSettings": {}
+}

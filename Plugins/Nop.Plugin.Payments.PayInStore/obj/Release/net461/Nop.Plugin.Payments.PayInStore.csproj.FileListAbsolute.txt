@@ -1,0 +1,40 @@
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PayInStore\plugin.json
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PayInStore\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PayInStore\Views\PaymentInfo.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PayInStore\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PayInStore\logo.jpg
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PayInStore\Nop.Plugin.Payments.PayInStore.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Payments.PayInStore\Nop.Plugin.Payments.PayInStore.pdb
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.csproj.CopyComplete
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.pdb
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.csprojAssemblyReference.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\plugin.json
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Views\PaymentInfo.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\logo.jpg
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Nop.Plugin.Payments.PayInStore.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Nop.Plugin.Payments.PayInStore.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.csproj.CopyComplete
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.pdb
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\plugin.json
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Views\Configure.cshtml
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Views\PaymentInfo.cshtml
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\logo.jpg
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Nop.Plugin.Payments.PayInStore.dll
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Presentation\Nop.Web\Plugins\Payments.PayInStore\Nop.Plugin.Payments.PayInStore.pdb
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.AssemblyInfo.cs
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.csproj.CopyComplete
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.dll
+C:\Users\Prog\Desktop\SpecialisteTravailleur-Stage\Plugins\Nop.Plugin.Payments.PayInStore\obj\Release\net461\Nop.Plugin.Payments.PayInStore.pdb

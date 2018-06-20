@@ -1,0 +1,86 @@
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\license.txt
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\nivo-slider.css
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\README
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\sample-images\banner1.jpg
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\sample-images\banner2.jpg
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\bar\arrows.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\bar\bar.css
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\bar\bullets.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\bar\loading.gif
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\custom\arrows.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\custom\bullets.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\custom\custom.css
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\custom\loading.gif
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\dark\arrows.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\dark\bullets.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\dark\dark.css
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\dark\loading.gif
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\default\arrows.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\default\bullets.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\default\default.css
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\default\loading.gif
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\light\arrows.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\light\bullets.png
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\light\light.css
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\light\loading.gif
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\plugin.json
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Scripts\jquery.nivo.slider.js
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\PublicInfo.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\_PublicInfo.SliderLine.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\_PublicInfo.Display.cshtml
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\logo.jpg
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\style.css
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Iclic.Plugin.Widgets.BlocPub.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Iclic.Plugin.Widgets.BlocPub.pdb
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.csprojAssemblyReference.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.csproj.CopyComplete
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.dll
+C:\Users\Prog\Desktop\Jean-Gabriel\fourniture-de-beauce-4.0\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\license.txt
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\nivo-slider.css
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\README
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\sample-images\banner1.jpg
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\sample-images\banner2.jpg
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\bar\arrows.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\bar\bar.css
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\bar\bullets.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\bar\loading.gif
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\custom\arrows.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\custom\bullets.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\custom\custom.css
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\custom\loading.gif
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\dark\arrows.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\dark\bullets.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\dark\dark.css
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\dark\loading.gif
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\default\arrows.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\default\bullets.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\default\default.css
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\default\loading.gif
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\light\arrows.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\light\bullets.png
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\light\light.css
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\nivoslider\themes\light\loading.gif
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\plugin.json
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Scripts\jquery.nivo.slider.js
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\Configure.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\PublicInfo.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\_PublicInfo.SliderLine.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\_ViewImports.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Views\_PublicInfo.Display.cshtml
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\logo.jpg
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Content\style.css
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Iclic.Plugin.Widgets.BlocPub.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Presentation\Nop.Web\Plugins\Iclic.Plugin.Widgets.BlocPub\Iclic.Plugin.Widgets.BlocPub.pdb
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.csprojAssemblyReference.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.csproj.CoreCompileInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.AssemblyInfoInputs.cache
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.AssemblyInfo.cs
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.csproj.CopyComplete
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.dll
+C:\Users\Prog\Desktop\Projets\Fournitures de Beauce\fourniture-de-beauce-4.0-stage\Plugins\Iclic.Plugin.Widgets.BlocPub\obj\Release\net461\Iclic.Plugin.Widgets.BlocPub.pdb

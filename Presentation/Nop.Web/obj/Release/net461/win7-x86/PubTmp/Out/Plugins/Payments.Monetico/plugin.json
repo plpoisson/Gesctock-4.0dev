@@ -1,0 +1,15 @@
+{
+  "Group": "Payment methods",
+  "FriendlyName": "Monetico",
+  "SystemName": "Payments.Monetico",
+  "Version": "1.0",
+  "SupportedVersions": [
+    "4.00"
+  ],
+  "Author": "David",
+  "DisplayOrder": 1,
+  "FileName": "Nop.Plugin.Payments.Monetico.dll",
+  "Description": "Transaction par le système Monetico",
+  "LimitedToStores": [],
+  "LimitedToCustomerRoles": []
+}
